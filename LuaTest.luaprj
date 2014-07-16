@@ -2,4 +2,5 @@
 
 <Project Name="LuaTest.luaprj" >
     <LuaFile RelativePath=".\LuaTest.lua" />
+    <LuaFile RelativePath=".\FuncTest.lua" />
 </Project>

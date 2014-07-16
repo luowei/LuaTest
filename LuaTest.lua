@@ -72,6 +72,31 @@ Multipy(2,3)
 Multipy(2,3,4)
 
 
+--返回值
+function TimesTwo(myValue)
+	myValue = myValue*2
+	return myValue
+end
+TimesTwo(3)
+
+--多个返回值
+function ThreeDice()
+	d1 = math.random(1,6)
+	d2 = math.random(1,6)
+	d3 = math.random(1,6)
+	myTotal = d1 + d2 + d3
+	return d1,d2,d3,myTotal
+end
+
+print(ThreeDice())
+
+--assert使用
+b = "print(math.max(7,8,9,10))";
+assert(loadstring(b))()
+
+--dofile
+dofile(LuaTest.lua)
+
 
 
 
