@@ -4,4 +4,5 @@
     <LuaFile RelativePath=".\LuaTest.lua" />
     <LuaFile RelativePath=".\FuncTest.lua" />
     <LuaFile RelativePath=".\TableTest.lua" />
+    <LuaFile RelativePath=".\IOTest.lua" />
 </Project>
