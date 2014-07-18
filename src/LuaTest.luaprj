@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
-<Project Name="LuaTest.luaprj" >
-    <LuaFile RelativePath=".\LuaTest.lua" />
-    <LuaFile RelativePath=".\FuncTest.lua" />
-    <LuaFile RelativePath=".\TableTest.lua" />
-    <LuaFile RelativePath=".\IOTest.lua" />
-</Project>
