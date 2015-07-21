@@ -1,3 +1,11 @@
+-- 数据源去重Shell 脚本：
+-- sort -u datasource.txt
+-- awk '!a[$0]++' datasource.txt
+
+-- 更多去重方式参考:http://stackoverflow.com/questions/9377040/remove-duplicate-entries-using-a-bash-script
+-- 在线工具:http://textmechanic.com/Remove-Duplicate-Lines.html
+
+
 -- 按宫格键
 function gongGeClk( btnId )
 	if(btnId <= 3) then
@@ -156,13 +164,135 @@ end
 -- 把候选词第4行滚动到第0行(即滚动一屏)
 function scrollAPage()
 	-- print("scrollAPage",99, 100.0, 500.0)
-	usleep(100000.0)
-	touchDown(99, 100.0, 500.0)
-	usleep(100000.0)
-	touchMove(99, 100.0, 340.0)
-	usleep(100000.0)
-	touchUp(99, 100.0, 340.0)
-	usleep(100000.0)
+	-- usleep(100000.0)
+	-- touchDown(99, 100.0, 500.0)
+	-- usleep(100000.0)
+	-- touchMove(99, 100.0, 340.0)
+	-- usleep(100000.0)
+	-- touchUp(99, 100.0, 340.0)
+	-- usleep(100000.0)
+
+	-- 以下是录制的死代码
+	touchDown(5, 300.7, 506.3);
+	usleep(80517.33);
+	touchMove(5, 299.2, 500.2);
+	usleep(16626.96);
+	touchMove(5, 299.2, 496.2);
+	usleep(16809.62);
+	touchMove(5, 299.2, 491.6);
+	usleep(16556.38);
+	touchMove(5, 299.7, 488.0);
+	usleep(16650.38);
+	touchMove(5, 300.2, 484.5);
+	usleep(16843.29);
+	touchMove(5, 300.7, 480.5);
+	usleep(16448.12);
+	touchMove(5, 301.2, 475.9);
+	usleep(16684.75);
+	touchMove(5, 301.7, 470.8);
+	usleep(16945.62);
+	touchMove(5, 301.7, 465.8);
+	usleep(16467.04);
+	touchMove(5, 302.3, 460.2);
+	usleep(16631.96);
+	touchMove(5, 302.3, 454.6);
+	usleep(16854.75);
+	touchMove(5, 302.3, 448.5);
+	usleep(16500.25);
+	touchMove(5, 302.3, 442.0);
+	usleep(16681.83);
+	touchMove(5, 302.3, 434.4);
+	usleep(16810.17);
+	touchMove(5, 302.3, 427.3);
+	usleep(16560.08);
+	touchMove(5, 302.3, 420.7);
+	usleep(16642.62);
+	touchMove(5, 302.3, 414.1);
+	usleep(16769.00);
+	touchMove(5, 302.3, 408.0);
+	usleep(16567.92);
+	touchMove(5, 302.3, 402.9);
+	usleep(16672.88);
+	touchMove(5, 302.3, 397.9);
+	usleep(16817.38);
+	touchMove(5, 302.3, 392.3);
+	usleep(16554.88);
+	touchMove(5, 302.3, 387.8);
+	usleep(16759.17);
+	touchMove(5, 302.3, 383.7);
+	usleep(16697.29);
+	touchMove(5, 302.3, 379.6);
+	usleep(16521.33);
+	touchMove(5, 302.3, 375.6);
+	usleep(16639.75);
+	touchMove(5, 302.3, 372.0);
+	usleep(16861.58);
+	touchMove(5, 302.3, 368.5);
+	usleep(16490.50);
+	touchMove(5, 302.3, 365.5);
+	usleep(16694.62);
+	touchMove(5, 302.3, 362.4);
+	usleep(16806.92);
+	touchMove(5, 302.3, 359.4);
+	usleep(16506.67);
+	touchMove(5, 302.3, 356.3);
+	usleep(16652.96);
+	touchMove(5, 302.3, 352.8);
+	usleep(16861.62);
+	touchMove(5, 302.3, 349.8);
+	usleep(16576.42);
+	touchMove(5, 302.3, 346.7);
+	usleep(16629.17);
+	touchMove(5, 302.3, 343.7);
+	usleep(16825.46);
+	touchMove(5, 302.3, 341.7);
+	usleep(16626.67);
+	touchMove(5, 302.3, 339.6);
+	usleep(16473.75);
+	touchMove(5, 302.3, 337.6);
+	usleep(16873.04);
+	touchMove(5, 302.3, 336.1);
+	usleep(16528.42);
+	touchMove(5, 302.3, 334.6);
+	usleep(16632.96);
+	touchMove(5, 302.3, 333.0);
+	usleep(16801.04);
+	touchMove(5, 302.3, 332.0);
+	usleep(16586.25);
+	touchMove(5, 302.3, 330.5);
+	usleep(16584.50);
+	touchMove(5, 302.3, 329.5);
+	usleep(16822.29);
+	touchMove(5, 302.3, 328.5);
+	usleep(16541.79);
+	touchMove(5, 302.3, 327.5);
+	usleep(16647.83);
+	touchMove(5, 302.3, 327.0);
+	usleep(16795.88);
+	touchMove(5, 302.3, 325.9);
+	usleep(16602.62);
+	touchMove(5, 302.3, 325.4);
+	usleep(33371.04);
+	touchMove(5, 302.3, 324.4);
+	usleep(33248.50);
+	touchMove(5, 302.3, 323.9);
+	usleep(16806.50);
+	touchMove(5, 302.3, 323.4);
+	usleep(16611.17);
+	touchMove(5, 302.3, 322.9);
+	usleep(16602.58);
+	touchMove(5, 302.3, 322.4);
+	usleep(33305.29);
+	touchMove(5, 302.3, 321.9);
+	usleep(83454.75);
+	touchMove(5, 302.3, 321.4);
+	usleep(1050600.00);
+	touchMove(5, 302.8, 321.4);
+	usleep(16352.96);
+	touchMove(5, 304.3, 319.4);
+	usleep(16499.08);
+	touchUp(5, 306.3, 317.3);
+
 end
 
 
@@ -274,10 +404,6 @@ function handleALine( line )
 	end
 
 
-
-	-- 滚动到第2屏候选词
-	scrollAPage()
-
 	-- 2
 	for row=1,4 do
 		for col=1,4 do
@@ -288,6 +414,10 @@ function handleALine( line )
 			-- 展开候选面板
 			showSelWords()
 			usleep(100000)
+
+			-- 滚动到第2屏候选词
+			scrollAPage()
+			usleep(600000)
 
 			-- 选词上屏
 			selWord(row,col)
